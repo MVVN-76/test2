@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 - 高级Web技术实验二</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrap">
+                <div class="logo">
+                    <img src="logo-white.svg" alt="云端编程">
+                </div>
+                <div class="nav-buttons">
+                    <button type="button" class="btn-login" onclick="window.location.href='index.html'">首页</button>
+                    <button type="button" class="btn-register" onclick="window.location.href='register.html'">注册</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="form-page">
+        <div class="container">
+            <div class="card">
+                <h1>用户登录</h1>
+                <form id="loginForm">
+                    <input type="text" id="loginUsername" placeholder="用户名" required>
+                    <input type="password" id="loginPassword" placeholder="密码" required>
+                    <button type="submit" class="btn-primary">登录</button>
+                </form>
+                <p>还没有账号？<button type="button" class="btn-detail" onclick="window.location.href='register.html'">立即注册</button></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy;2026 云端科技 Artech All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
